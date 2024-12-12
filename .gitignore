@@ -31,3 +31,58 @@ build/
 
 ### VS Code ###
 .vscode/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+
+# JDT-specific (Eclipse Java Development Tools)
+
+*#
+
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.attach_pid*
+
+.gradle
+.metadata
+
+.recommenders
+
+.vscode
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+out
+overridedb.*
+target
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+
+.git-hooks/
+node_modules
