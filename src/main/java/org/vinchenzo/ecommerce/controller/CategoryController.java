@@ -4,7 +4,7 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.vinchenzo.ecommerce.Config.AppConstants;
+import org.vinchenzo.ecommerce.config.AppConstants;
 import org.vinchenzo.ecommerce.Payload.CategoryDTO;
 import org.vinchenzo.ecommerce.Payload.CategoryResponse;
 import org.vinchenzo.ecommerce.service.CategoryService;

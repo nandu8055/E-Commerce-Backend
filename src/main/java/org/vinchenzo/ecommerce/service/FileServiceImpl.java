@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.UUID;
 
+@SuppressWarnings("ResultOfMethodCallIgnored")
 @Service
 public class FileServiceImpl implements FileService {
 

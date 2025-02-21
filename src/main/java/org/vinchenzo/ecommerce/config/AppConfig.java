@@ -1,4 +1,4 @@
-package org.vinchenzo.ecommerce.Config;
+package org.vinchenzo.ecommerce.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

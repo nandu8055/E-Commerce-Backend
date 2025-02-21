@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import org.vinchenzo.ecommerce.Config.AppConstants;
+import org.vinchenzo.ecommerce.config.AppConstants;
 import org.vinchenzo.ecommerce.Payload.ProductDTO;
 import org.vinchenzo.ecommerce.Payload.ProductResponse;
 import org.vinchenzo.ecommerce.service.ProductService;

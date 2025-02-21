@@ -1,4 +1,4 @@
-package org.vinchenzo.ecommerce.Config;
+package org.vinchenzo.ecommerce.config;
 
 public class AppConstants {
     public static final String PAGE_NUMBER="0";
