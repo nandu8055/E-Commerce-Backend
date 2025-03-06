@@ -15,8 +15,9 @@ import org.vinchenzo.ecommerce.repository.UserRepository;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-    UserRepository userRepository;
+    private UserRepository userRepository;
 
+    @Autowired
     public UserDetailsServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }

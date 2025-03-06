@@ -3,10 +3,7 @@ package org.vinchenzo.ecommerce.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 public class Address {
 
+    @Getter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long AddressId;
@@ -46,9 +44,10 @@ public class Address {
     @Size(min = 6,message = "pin code  must be at-least 5 characters")
     private String pinCode;
 
-    @ToString.Exclude
-    @ManyToMany(mappedBy = "addresses")
-    private List<User> users = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public Address(String street, String buildingName, String city, String state, String country, String pinCode) {
         this.street = street;
