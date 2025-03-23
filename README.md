@@ -4,11 +4,7 @@ Here's an **even more attractive** `README.md` with enhanced visuals, emojis, an
 
 # 🌟 **Java Spring Boot REST API**  
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)  
 
 > **A high-performance, scalable REST API using Java Spring Boot, secured with JWT, containerized with Docker, and optimized for modern applications.**  
 
@@ -47,9 +43,9 @@ Here's an **even more attractive** `README.md` with enhanced visuals, emojis, an
 ## 🛠️ **Tech Stack**  
 
 | Technology    | Purpose                      |
-|--------------|------------------------------|
+|--------------|-------------------------------|
 | ☕ Java 17+   | Backend Language             |
-| 🏗 Spring Boot | API Framework               |
+| 🏗 Spring Boot | API Framework                |
 | 🔒 Spring Security | Authentication & JWT    |
 | 🛢 PostgreSQL | Database                     |
 | 🐳 Docker    | Containerization             |
